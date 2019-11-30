@@ -1,0 +1,257 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5045,
+      "max": [
+        12.551242828369141,
+        4.6868581771850586,
+        -0.39491665363311768
+      ],
+      "min": [
+        9.8758420944213867,
+        0.76822841167449951,
+        -1.7188938856124878
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 60540,
+      "componentType": 5126,
+      "count": 5045,
+      "max": [
+        0.98772859573364258,
+        0.99999547004699707,
+        0.99999624490737915
+      ],
+      "min": [
+        -0.98750805854797363,
+        -0.99969291687011719,
+        -0.99118161201477051
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 5045,
+      "max": [
+        0.99999815225601196,
+        0.99996066093444824,
+        0.99999344348907471,
+        1
+      ],
+      "min": [
+        -0.99999815225601196,
+        -0.99991923570632935,
+        -0.99999547004699707,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5045,
+      "max": [
+        1.0010182857513428,
+        1
+      ],
+      "min": [
+        -2.9802322387695312e-08,
+        -1.7033033872237979e-09
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 19560,
+      "max": [
+        5044
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "cgkaran (https://sketchfab.com/cgkaran)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/37c3994d7ab342a3a8eb7e43f95cbd2e",
+      "title": "Iron Man - Mask"
+    },
+    "generator": "Sketchfab-3.47.8",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 78240,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 40360,
+      "byteOffset": 78240,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 121080,
+      "byteOffset": 118600,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 80720,
+      "byteOffset": 239680,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 320400,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "blinn1",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          0.63729999999999998,
+          0,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 0.92074838159999994
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "polySurface25_blinn1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "ca9f2978ecce46518b5b28816f2f9acc.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        2.2020094394683838,
+        0,
+        0,
+        0,
+        0,
+        2.2020094394683838,
+        0,
+        0,
+        0,
+        0,
+        2.2020094394683838,
+        0,
+        -13.478767395019531,
+        7.6807823181152344,
+        1.2694191932678223,
+        1
+      ],
+      "name": "polySurface25"
+    },
+    {
+      "mesh": 0,
+      "name": "polySurface25_blinn1_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
